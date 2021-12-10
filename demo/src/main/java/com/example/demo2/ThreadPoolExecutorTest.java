@@ -44,6 +44,7 @@ public class ThreadPoolExecutorTest {
         while (executor.getCompletedTaskCount() < 50) {
             end = System.currentTimeMillis();
         }
-        System.out.println("任务总耗时：" + (end - start));
+        System.out.println("任务总耗时sadsad：" + (end - start));
+
     }
 }
